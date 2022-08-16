@@ -30,10 +30,10 @@
 
 ## :triangular_ruler: *Design Considerations:*
 
-With the ParkSaver application, each owner of a parking spot can publicize it, showing up on our map.
-In such way, drivers can look for the closest parking spot, rent it and pay for it through the app,
-the price for the parking spot will be displayed on the map. In addition, we manage a user’s rating system
-that provides motivation for fitting behavior of the renters and the lessees.
+*With the ParkSaver application, each owner of a parking spot can publicize it, showing up on our map.*
+*In such way, drivers can look for the closest parking spot, rent it and pay for it through the app,*
+*the price for the parking spot will be displayed on the map. In addition, we manage a user’s rating system*
+*that provides motivation for fitting behavior of the renters and the lessees.*
 
 ### *The algorithm is based on 3 components:*
 * *Shortest route from the desired destination.*
