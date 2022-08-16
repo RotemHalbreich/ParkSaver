@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layoutDirection="rtl"
+    android:orientation="vertical"
+    android:paddingBottom="5dp">
+
+    <LinearLayout
+        android:id="@+id/lin1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/nameTVHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/name_of_owner"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteY="4dp" />
+
+        <TextView
+            android:id="@+id/nameTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="@string/dummy"
+            app:layout_constraintStart_toEndOf="@id/nameTVHeader"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteY="4dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lin2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/lin1">
+
+        <TextView
+            android:id="@+id/dateTVHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/date"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteY="4dp" />
+
+        <TextView
+            android:id="@+id/dateTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="@string/dummy"
+            app:layout_constraintStart_toEndOf="@id/dateTVHeader"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteY="4dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lin3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/lin2">
+
+        <TextView
+            android:id="@+id/hourTVHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hour_range"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteY="4dp" />
+
+        <TextView
+            android:id="@+id/hourTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="@string/dummy"
+            app:layout_constraintStart_toEndOf="@id/hourTVHeader"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteY="4dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lin4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/lin3">
+
+        <TextView
+            android:id="@+id/branchTVHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/price"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteY="4dp" />
+
+        <TextView
+            android:id="@+id/priceTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="@string/dummy"
+            app:layout_constraintStart_toEndOf="@id/hourTVHeader"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteY="4dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lin5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/lin4">
+
+        <TextView
+            android:id="@+id/spotHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/adress"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteY="4dp" />
+
+        <TextView
+            android:id="@+id/adressTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="@string/dummy"
+            app:layout_constraintStart_toEndOf="@id/hourTVHeader"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteY="4dp" />
+
+
+    </LinearLayout>
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_marginEnd="20dp"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/lin6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/lin5">
+
+        <TextView
+            android:id="@+id/telephoneHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/telephone"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteY="4dp" />
+
+        <TextView
+            android:id="@+id/telephoneTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="@string/dummy"
+            app:layout_constraintStart_toEndOf="@id/hourTVHeader"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteY="4dp" />
+
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="10dp"
+        android:background="#D1D1D1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/lin6" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,109 @@
+<resources>
+    <string name="application_name">Park Saver</string>
+    <string name="email">אימייל</string>
+    <string name="password">סיסמא</string>
+    <string name="fullname">שם מלא</string>
+    <string name="appointement">קבע תור</string>
+    <string name="login">הכנס</string>
+    <string name="register_button">הרשם</string>
+    <string name="register_to_app"><u>אין לך עדיין משתמש? הירשם!</u></string>
+    <string name="login_failed">שם משתמש או סיסמא לא נכונים</string>
+    <string name="register">הרשמה</string>
+    <string name="error_text">חובה למלא את כל השדות</string>
+    <string name="register_sucsses">הרשמה הצליחה</string>
+
+    <string name="register_fail">הרשמה לא הצליחה, נסה שוב</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="my_appointement">החניות שלי</string>
+    <string name="waze">ניווט לבית העסק</string>
+    <string name="change_appointment">שנה תור</string>
+    <string name="delete_appointment">בטל תור</string>
+    <string name="whatsapp">פנייה ב - WhatsApp</string>
+    <string name="facebook">Facebook</string>
+    <string name="instagram">Instagram</string>
+    <string name="store">חנות</string>
+    <string name="appointement_header">זימון חניה</string>
+
+    <string name="choose">בחר תאריך:</string>
+    <string name="choose_employee">בחר ספר:</string>
+    <string name="choose_hour">בחר שעה</string>
+    <string name="create_appointemnt">צור</string>
+    <string name="must_to_fill">חובה למלא את כל השדות</string>
+    <string name="appointment_created">חניה נוצר בהצלחה</string>
+    <string name="appointment_failed">חניה לא נוצרה</string>
+    <string name="name_of_employe">שם החניון:</string>
+    <string name="dummy">טקסט לצורכי טסט</string>
+    <string name="hour">שעה:</string>
+    <string name="choose_branch">בחר סניף:</string>
+    <string name="branch">סניף:</string>
+    <string name="warning">אזהרה</string>
+    <string name="are_you_sure">אתה בטוח?</string>
+    <string name="decline">בטל</string>
+    <string name="accept">אישור</string>
+    <string name="item_deleted">תור נמחק בהצלחה</string>
+    <string name="item_not_deleted">שגיאה במהלך מחיקה</string>
+    <string name="edit_appointemtn_sucsses">עריכה הושלמה בהצלחה</string>
+    <string name="edit_appointemtn_fail">עריכה לא הצליחה</string>
+
+    <string name="first_name">שם פרטי</string>
+    <string name="last_name">משפחה</string>
+    <string name="credit_card_number">מספר כרטיס</string>
+    <string name="expiration_date">MM/YY</string>
+    <string name="cvv">קוד ביטחון</string>
+
+    <string name="pay">הוסף כרטיס</string>
+
+    <string name="successful_add_card">כרטיס אשראי הוסף בהצלחה</string>
+    <string name="ok">אוקיי</string>
+
+    <string name="please_enter_first_name">מלא שם פרטי</string>
+    <string name="please_enter_last_name">מלא שם משפחה</string>
+
+    <string name="invalid_card_number">מספר כרטיס לא תקין</string>
+    <string name="invalid_expiration_date">תאריך לא תקין</string>
+    <string name="invalid_cvv">קוד ביטחון לא תקין</string>
+    <string name="welcome_back">ברוך הבא</string>
+    <string name="update">עדכון</string>
+    <string name="update_appointment">יצירת תור</string>
+    <string name="failed_add_card">כרטיס אשראי נכשל</string>
+    <string name="edit_credit_card">ערוך כרטיס אשראי</string>
+    <string name="sum">סה״כ:</string>
+    <string name="pay_now">שלם</string>
+    <string name="id_number">מספר תעודת זהות</string>
+    <string name="please_enter_id">תעודת זהות לא תקינה</string>
+    <string name="choose_items">בחר פריטים</string>
+    <string name="payement_verification">אישור תשלום</string>
+    <string name="no_payment">לא הוזן אמצעי תשלום</string>
+    <string name="payment_message">"האם אתה בטוח שברצונך לשלם בסהכ - "</string>
+    <string name="payment_sucsses">העסקה בוצעה בהצלחה</string>
+    <string name="navigation">נווט</string>
+    <string name="navigation_header">נווט לסניף</string>
+    <string name="choose_park">בחר חניה</string>
+    <string name="park_area">חניון</string>
+    <string name="name_of_park">שם החניון:</string>
+
+    <string name="choose_spot">בחר מקום</string>
+    <string name="sum_to_pay">סכום לתשלום</string>
+    <string name="spot">מקום:</string>
+    <string name="price">מחיר:</string>
+    <string name="date">תאריך:</string>
+    <string name="register_role">האם אתה בעל חניה?</string>
+    <string name="telephone">מספר טלפון:</string>
+    <string name="adress">כתובת:</string>
+    <string name="from_hour">משעה:</string>
+    <string name="to_hour">עד שעה:</string>
+    <string name="continue_register">המשך</string>
+    <string name="error_hours">טווח שעות לא תקין</string>
+    <string name="name_of_owner">שם בעל החניה:</string>
+    <string name="hours">שעות</string>
+    <string name="hours_not_avaliable">שעות לא פנויות</string>
+    <string name="over_lap_error">קיימת חפיפה בטווחי שעות</string>
+    <string name="hour_range">שעות:</string>
+    <string name="name_of_renter">שם השוכר:</string>
+    <string name="no_data">אין מידע להציג</string>
+    <string name="fill_image">נא לבחור תמונה</string>
+    <string name="choose_location">נא לבחור מיקום</string>
+</resources>

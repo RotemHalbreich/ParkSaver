@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText">
+
+    <item
+        android:id="@+id/nav_billing"
+        android:icon="@drawable/credit_card_icon"
+        android:title="כרטיס אשראי" />
+
+    <item
+        android:id="@+id/my_parkings"
+        android:icon="@drawable/myparkings"
+        android:title="ההזמנות שלי" />
+
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@drawable/logout"
+        android:title="יציאה" />
+
+</menu>
