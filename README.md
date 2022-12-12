@@ -38,7 +38,7 @@
 ### *The algorithm is based on 3 components:*
 * *Shortest route from the desired destination.*
 * *The cost of the parking spot.*
-* *Ratings of the parking spot’s owner.*
+* *Ratings of the parking spot owner.*
 
 
 
