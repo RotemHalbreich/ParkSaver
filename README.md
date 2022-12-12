@@ -8,20 +8,20 @@
 
 ### *Finding a solution for the parking problem in big cities.*
 *Clients can pay in advanced for a private parking spot of an individual who lives in that city,*
-*that way the parking spot’s owner benefits from renting his spot when it’s empty and the lessee gets a decent parking spot with minimum time waste, costs and effort.*
+*that way the parking spot owner benefits from renting his spot when it’s empty and the lessee gets a decent parking spot with minimum time waste, costs and effort.*
 
 
 
 ## :large_blue_diamond: *Introduction:*
 
 *The business model of ParkSaver company is based on the “Joined Economics" principal. The company produces a cellphone application that allows*
-*communication between drivers and parking spot’s owners. These days, there’s a lack of parking spots and their costs are extremely high.*
+*communication between drivers and parking spots owners. These days, there’s a lack of parking spots and their costs are extremely high.*
 *When a person is traveling for a meeting, concert and so on he might have to pay a huge amount of money and waste time for finding a decent parking spot.*
 *We would like to make it easier for individuals to search for parking places.*
 
 ### *The project's objectives are:*
 
-* *Parking spot’s owner can rent out his spot in specific hours he chooses to, therefore gain an income.*
+* *Parking spot owner can rent out his spot in specific hours he chooses to, therefore gain an income.*
   *In addition, there will be less road congestion and the cost of public parking lots will decrease.*
 
 * *The lessee will receive a comfortable solution for finding a decent parking spot and will save money and precious time in the process.*
