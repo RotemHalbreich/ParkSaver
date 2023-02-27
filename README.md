@@ -1,4 +1,5 @@
-![banner](https://user-images.githubusercontent.com/66558110/184918687-239c023c-e991-43b9-9fa5-b351b9bf7329.png)
+<!-- ![banner](https://user-images.githubusercontent.com/66558110/184918687-239c023c-e991-43b9-9fa5-b351b9bf7329.png) -->
+![image](https://user-images.githubusercontent.com/66558110/221697461-970453b9-758f-4170-a587-650fb3b2c823.png)
 
 ## :pencil: *Project's Authors:*
   *Rotem Halbreich  -  GitHub: https://github.com/RotemHalbreich* | *Nadav Keysar  -  GitHub: https://github.com/Nadavkeysar*
